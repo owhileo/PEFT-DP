@@ -71,7 +71,7 @@ bash run_all_agents.sh
 
 **Tiny-BERT with $\epsilon$=-1 (No Privacy)**
 
-| Dataset      | soft-prompt | prefix  | LoRA    | full-finetuning | last-layer-finetuning | soft-prompt + LoRA | prefix + LoRA | (IA)(^3) |
+| Dataset      | soft-prompt | prefix  | LoRA    | full-finetuning | last-layer-finetuning | soft-prompt + LoRA | prefix + LoRA | (IA)^3 |
 | ------------ | ----------- | ------- | ------- | --------------- | --------------------- | ------------------ | ------------- | -------- |
 | SST2         | 0.79931     | 0.81422 | 0.81995 | 0.80275         | 0.69151               | 0.80963            | 0.81422       | 0.77408  |
 | QNLI         | 0.74135     | 0.73586 | 0.80761 | 0.69833         | 0.60260               | 0.80267            | 0.81384       | 0.77229  |
@@ -81,7 +81,7 @@ bash run_all_agents.sh
 
 **Tiny-BERT with $\epsilon$=8**
 
-| Dataset      | soft-prompt | prefix  | LoRA    | full-finetuning | last-layer-finetuning | soft-prompt + LoRA | prefix + LoRA | (IA)(^3) |
+| Dataset      | soft-prompt | prefix  | LoRA    | full-finetuning | last-layer-finetuning | soft-prompt + LoRA | prefix + LoRA | (IA)^3 |
 | ------------ | ----------- | ------- | ------- | --------------- | --------------------- | ------------------ | ------------- | -------- |
 | SST2         | 0.74197     | 0.75000 | 0.78555 | 0.79817         | 0.68349               | 0.77179            | 0.78899       | 0.76261  |
 | QNLI         | 0.69815     | 0.70218 | 0.77906 | 0.59564         | 0.60077               | 0.76258            | 0.77558       | 0.76588  |
